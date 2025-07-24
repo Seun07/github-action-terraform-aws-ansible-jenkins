@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "sheck2-bucket"
+    bucket = "aws-lagos2000"
     region = "eu-north-1"
-    key    = "gitHub-action-ansible/terraform.tfstate"
+    key    = "gitHub-ansible/terraform.tfstate"
   }
 }
